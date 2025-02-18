@@ -26,3 +26,49 @@ section {
 #luxury {
   background-color: #004140;
 }
+
+/* == TYPOGRAPHY == */
+
+@font-face {
+  font-family: 'LexendDeca';
+  src: url('./fonts/LexendDeca.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BigShouldersDisplay';
+  src: url('./fonts/BigShouldersDisplay.ttf') format('truetype');
+}
+
+h2 {
+  font-family: 'BigShouldersDisplay';
+  font-size: 40px;
+  font-weight: bold;
+  color: #F2F2F2;
+}
+
+p {
+  font-family: 'LexendDeca';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+button {
+  font-family: 'BigShouldersDisplay';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+#sedans button {
+  color: #E28625;
+}
+
+#suvs button {
+  color: #006971;
+}
+
+#luxury button {
+  color: #004140;
+}
