@@ -1,0 +1,28 @@
+/* == LAYOUT == */
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 307px;
+  padding: 48px;
+}
+
+#sedans {
+  background-color: #E28625;
+}
+
+#suvs {
+  background-color: #006971;
+}
+
+#luxury {
+  background-color: #004140;
+}
