@@ -17,6 +17,8 @@ section {
 
 #sedans {
   background-color: #E28625;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 #suvs {
@@ -25,17 +27,19 @@ section {
 
 #luxury {
   background-color: #004140;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .product-icon {
   margin-bottom: 35px;
 }
 
-h2 {
+.product-title {
   margin-bottom: 25px;
 }
 
-p {
+.product-desc {
   margin-bottom: 83px;
 }
 
