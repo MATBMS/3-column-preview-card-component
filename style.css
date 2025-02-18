@@ -27,6 +27,18 @@ section {
   background-color: #004140;
 }
 
+.product-icon {
+  margin-bottom: 35px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+p {
+  margin-bottom: 83px;
+}
+
 /* == TYPOGRAPHY == */
 
 @font-face {
