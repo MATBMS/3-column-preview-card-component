@@ -72,3 +72,30 @@ button {
 #luxury button {
   color: #004140;
 }
+
+/* == BUTTON == */
+
+button {
+  width: 146px;
+  height: 48px;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+}
+
+#sedans button:hover {
+  background-color: #E28625;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+#suvs button:hover {
+  background-color: #006971;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+#luxury button:hover {
+  background-color: #004140;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
